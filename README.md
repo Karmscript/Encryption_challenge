@@ -1,11 +1,11 @@
-# 🔑 Known-Word Decryptor
+## Known-Word Decryptor
 
 A simple Python tool that decrypts a Caesar cipher text when you know **at least one word** from the original plaintext.  
 It works by deducing the shift number from the known word and then decrypting the entire encrypted text.
 
 ---
 
-## ✨ Features
+##  Features
 - Automatically detects the Caesar cipher shift using a known word
 - Supports both uppercase and lowercase text
 - Preserves punctuation (.,!?')
@@ -14,14 +14,14 @@ It works by deducing the shift number from the known word and then decrypting th
 
 ---
 
-## 📦 Installation
+##  Installation
 Clone the repository and navigate into it:
 ```bash
 git clone https://github.com/Karmscript/Encryption_challenge
 cd plain_text_decryption
 No additional dependencies are required — it’s pure Python!
 
-##🖥 Usage
+## Usage
 You can import the function or run it in a script.
 Example:
 
@@ -42,5 +42,5 @@ Detect shift without a known word using frequency analysis
 
 Web interface or CLI tool
 
-##📄 License
+## License
 MIT License — feel free to use, modify, and share.
